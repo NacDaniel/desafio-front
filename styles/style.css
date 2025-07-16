@@ -1,0 +1,76 @@
+.seta::after {
+  content: '➔';
+  font-weight: 100;
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+.plus::after {
+  content: '+';
+  font-weight: 100;
+  font-size: 18px;
+  margin-left: 40px;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  background-color: #F1F1F1;
+  ;
+}
+
+h1,
+h2,
+h4 {
+  font-weight: bold;
+}
+
+h1 {}
+
+ul {
+  font-family: 'Lato';
+  color: #251B1B;
+}
+
+a {
+  text-decoration: none;
+}
+
+.linha {
+  position: relative;
+  padding-bottom: 8px;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.title-footer {
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+
+.bg-vermelhoescuro {
+  background-color: #730A13;
+}
+
+.text-pretoclaro {
+  color: #251B1B;
+}
+
+.f32px {
+  font-size: 32px;
+}
+
+.fregular {
+  font-weight: 400
+}
+
+.f16px {
+  font-size: 16px;
+}
+
+.bg-pretoclaro{
+  background-color: #251B1B;
+}
