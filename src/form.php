@@ -39,7 +39,7 @@ function sendMail($remetenteNome, $remetenteEmail)
         $mailer->Host = 'smtp.gmail.com';
         $mailer->SMTPAuth = true;
         $mailer->Username = 'preencher';
-        $mailer->Password = 'phrp nxrk dgew mswi';
+        $mailer->Password = '';
         $mailer->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;
         $mailer->Port = 465;
 
